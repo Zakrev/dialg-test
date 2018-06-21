@@ -1,0 +1,25 @@
+{
+    "id": 1,
+    "model":
+    [
+    {
+        "name": "name",
+        "value": "all"
+    }
+    ],
+    "phrases":
+    [
+    {
+        "id": 1,
+        "model": null,
+        "pattern": "by|exit|out",
+        "help": "exit"
+    },
+    {
+        "id": 2,
+        "model": ["name"],
+        "pattern": "by ([a-z]{1,10})",
+        "help": "by <name>"
+    }
+    ]
+}
