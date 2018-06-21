@@ -1,0 +1,35 @@
+{
+    "id": 1,
+    "model":
+    [
+    {
+        "name": "name",
+        "value": "Unknown"
+    },
+    {
+        "name": "action",
+        "value": "Nothing"
+    }
+    ],
+    "phrases":
+    [
+    {
+        "id": 1,
+        "model": ["name", "action"],
+        "pattern": "(?:hi|hello), ([a-z]{1,5}), ([a-z]{1,10})",
+        "help": "hello, <name>, <action>"
+    },
+    {
+        "id": 2,
+        "model": ["name"],
+        "pattern": "(?:hi|hello), ([a-z]{1,5})",
+        "help": "hello, <name>"
+    },
+    {
+        "id": 3,
+        "model": ["action"],
+        "pattern": "(?:hi|hello), do ([a-z]{1,10})",
+        "help": "hello, do <action>"
+    }
+    ]
+}
